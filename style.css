@@ -240,10 +240,14 @@ header .search-bar-container label:hover {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
   header .navbar a {
     display: block;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 1.5rem 0;
     background: #222;
   }
