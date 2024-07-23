@@ -237,5 +237,20 @@ header .search-bar-container label:hover {
     background: #333;
     border-top: 0.1rem solid rgba(255, 255 0255 0.2);
     padding: 1rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header .navbar a {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #222;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
   }
 }
