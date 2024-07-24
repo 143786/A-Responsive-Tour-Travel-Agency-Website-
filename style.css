@@ -25,6 +25,10 @@ html {
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
+
+section {
+  padding: 2.5rem 9%;
+}
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -211,10 +215,6 @@ header .search-bar-container label:hover {
   display: none;
 }
 
-body {
-  height: 300rem;
-}
-
 /* -------- Media querries -----------   */
 
 @media (max-width: 1200px) {
@@ -261,4 +261,11 @@ body {
   html {
     font-size: 55%;
   }
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
 }
