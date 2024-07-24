@@ -288,3 +288,12 @@ header .search-bar-container label:hover {
   color: #fff;
   padding: 0.5rem 0;
 }
+
+.home .video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
