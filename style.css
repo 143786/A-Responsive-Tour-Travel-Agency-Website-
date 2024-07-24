@@ -211,6 +211,10 @@ header .search-bar-container label:hover {
   display: none;
 }
 
+body {
+  height: 300rem;
+}
+
 /* -------- Media querries -----------   */
 
 @media (max-width: 1200px) {
