@@ -388,3 +388,7 @@ header .search-bar-container label:hover {
   padding: 1rem 0;
   color: #666;
 }
+
+.box-container .box img {
+  width: 60%;
+}
