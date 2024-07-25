@@ -342,11 +342,11 @@ header .search-bar-container label:hover {
 .home .controls .vid-btn.active {
   background: var(--orange);
 }
-section .row img {
+/*section .row img {
   width: 100%;
   background-size: cover;
 }
-
+*/
 .book .row {
   display: flex;
   flex-wrap: wrap;
@@ -357,5 +357,13 @@ section .row img {
   flex: 1 1 40rem;
 }
 
+.book .row img {
+  width: 100%;
+}
+
 .book .row form {
+  flex: 1 1 40rem;
+  padding: 2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
 }
