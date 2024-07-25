@@ -346,3 +346,16 @@ section .row img {
   width: 100%;
   background-size: cover;
 }
+
+.book .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.book .row .image {
+  flex: 1 1 40rem;
+}
+
+.book .row form {
+}
