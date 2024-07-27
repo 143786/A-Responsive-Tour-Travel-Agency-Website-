@@ -544,4 +544,23 @@ header .search-bar-container label:hover {
 .review .box img {
   height: 13rem;
   width: 13rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.review .box h3 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+.review .box p {
+  color: #666;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.review .box .stars i {
+  color: var(--orange);
+  font-size: 1.7rem;
 }
