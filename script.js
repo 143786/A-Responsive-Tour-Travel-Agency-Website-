@@ -1,3 +1,5 @@
+const { Autoplay } = require("swiper/modules");
+
 let searchBtn = document.querySelector("#search-btn");
 let searchBar = document.querySelector(".search-bar-container");
 let formBtn = document.querySelector("#login-btn");
@@ -44,4 +46,24 @@ videoBtn.forEach((btn) => {
     let src = btn.getAttribute("data-src");
     document.querySelector("#video-slider").src = src;
   });
+});
+
+var swiper = new swiper(".review-slider", {
+  spaceBetween: 20,
+  loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
 });
